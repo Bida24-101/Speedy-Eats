@@ -57,5 +57,13 @@ nav ul a:hover{
     color: white;
     cursor: pointer;
     border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
 }
+.iten button:hover{
+    transform: scale(1.08);
+}
+
 
