@@ -14,3 +14,10 @@ nav{
      displayh: grid;
      place-items: center;
 }
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+}
