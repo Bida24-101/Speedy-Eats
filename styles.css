@@ -63,9 +63,16 @@ nav ul a:hover{
     margin: 0 auto;
     transition: 0.2s all;
 }
-.iten button:hover{
+.item button:hover{
     transform: scale(1.08);
 }
-
-
-
+@media screen and (max-width: 1000px){
+.items{
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media screen and (max-width: 768px){
+    .items{
+        grid-template-columns: repeat(1. 1fr);
+    }
+}
