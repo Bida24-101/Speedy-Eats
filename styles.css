@@ -37,7 +37,7 @@ nav ul a:hover{
     grid-row-gap: 20px
 }
 .item img{
-    width: 50%;
+    width: 20%;
     height: 200px
     object-fit: cover;
     cursor: pointer;
@@ -80,7 +80,7 @@ overflow-x: hidden;
     grid-template-columns: repeat(2, 1fr);
    }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
     .items{
         grid-template-columns: repeat(1. 1fr);
     }
