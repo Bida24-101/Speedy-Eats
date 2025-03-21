@@ -66,7 +66,16 @@ nav ul a:hover{
 .item button:hover{
     transform: scale(1.08);
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 480px){
+
+html,body { 
+width: 100%;
+height: 100;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
 .items{
     grid-template-columns: repeat(2, 1fr);
    }
